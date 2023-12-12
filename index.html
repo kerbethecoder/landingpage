@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <a href="landing-page.html">
+        <img src="img/logo.png" alt="Logo of Starbucks" id="header-img" />
+      </a>
+      <nav id="nav-bar">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li class="nav-li">
+            <a href="#how-it-works" class="nav-link">How it Works</a>
+          </li>
+          <li class="nav-li"><a href="#pricing" class="nav-link">Prices</a></li>
+          <li class="nav-li">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wallpaper">
+      <img src="img/cup.png" alt="cup of coffee" class="cup" />
+      <img src="img/starbs.png" alt="Starbucks" class="starbs" />
+    </div>
+    <div class="introduction">
+      <p class="forintro fi">
+        <strong>Starbucks Corporation</strong> is an American multinational
+        chain of coffeehouses and roastery reserves headquarted in Seattle,
+        Washington. It is the world's largest coffeehouse chain. As of November
+        2021, the company had 33,833 stores in 80 countries, 15,444 of which
+        were located in the United States. Out of Starbucks' U.S.-based stores,
+        over 8,900 are company-operated, while the remainder are licensed. In
+        2021-2022, votes to join Starbucks unions were successful at multiple
+        Starbucks locations, including in cities such as Seattle, Buffalo,
+        Rochester, Ithaca, Kansas City, and Manhattan. The rise of the second
+        wave of coffee culture is generally attributed to Starbucks, which
+        introduced a wider variety of coffee experiences. Starbucks serves hot
+        and cold drinks, whole-bean coffee, micro-ground instant coffee,
+        espresso, caffe latte, full and loose-leaf teas, juices, Frappuccino
+        beverages, pastries, and snakcs. Some offerings are seasonal, or
+        specific to the locality of the store. Depending on the country, most
+        locations provide freee Wi-fi internet access.
+      </p>
+    </div>
+    <hr />
+    <blockquote>
+      <h1 class="quote">
+        Sometimes you just need the cup with the little green straw.
+      </h1>
+    </blockquote>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <p class="subs">Subscribe to hear new things from us!</p>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your Email here..."
+      />
+      <input type="submit" id="submit" />
+    </form>
+    <hr id="features" />
+    <div id="features">
+      <section class="howtosecretmenu">
+        <img
+          src="img/secret_menu.jpg"
+          alt="How to Order Secret Menu"
+          class="secretmenu"
+        />
+        <!-- <div class="rectangle"></div> -->
+        <div class="li-sm">
+          <p class="fs-20">Some secret menus to try:</p>
+          <ul>
+            <strong>1. Blackberry Cobbler Frappuccino</strong>
+            <li>Order a Vanilla Bean Creme Frappuccino.</li>
+            <li>
+              Add white mocha syrup (2 pumps for a venti, 1½ for a grande, and 1
+              pump for tall).
+            </li>
+            <li>Add blackberries.</li>
+          </ul>
+          <br />
+          <ul>
+            <strong>2. Biscotti Frappuccino</strong>
+            <li>Order a Vanilla Bean Creme Frappuccino.</li>
+            <li>Ask your barista to blend a biscotti into your Frappuccino.</li>
+          </ul>
+          <br />
+          <ul>
+            <strong>3. Skittles Frappuccino</strong>
+            <li>Order a Strawberries & Creme Frappuccino.</li>
+            <li>No classic syrup.</li>
+            <li>
+              Add vanilla syrup (2 pumps for a tall, 3 pumps for a grande, 4
+              pumps for venti) and raspberry syrup (½ pump for a tall, 1 pump
+              for a grande, 1½ pumps for venti).
+            </li>
+          </ul>
+          <br />
+          <ul>
+            <strong>4. Cap'n Crunch Frappuccino</strong>
+            <li>Order a Strawberries & Creme Frappuccino.</li>
+            <li>
+              Add 1 pump each caramel syrup, hazelnut syrup, and toffee-nut
+              syrup.
+            </li>
+            <li>Add java chips.</li>
+          </ul>
+          <br />
+          <ul>
+            <strong>5. Pink Drink</strong>
+            <li>Order a Strawberry Açai Refresher</li>
+            <li>Mix in coconut milk.</li>
+            <li>Add fresh strawberries and blackberries.</li>
+          </ul>
+        </div>
+      </section>
+      <img
+        src="img/snap.png"
+        alt="Snapshot of the menu in the website"
+        class="menu"
+      />
+      <a href="https://www.starbucks.ph/menu" class="visit"
+        >Visit the Menu here.</a
+      >
+    </div>
+    <hr />
+    <h1 class="tutor">How to make a simple drink:</h1>
+    <br />
+    <div id="how-it-works">
+      <video id="video" src="vid/HowToBrew.mp4" controls></video>
+    </div>
+    <hr />
+    <p class="pricetag">PRICES</p>
+    <div id="pricing">
+      <div class="col-1 product">
+        <ol>
+          <li>Vanilla Sweet Cream Cold Brew(Grande)<span>P185</span></li>
+          <li>Espresso (Solo)<span>P120</span></li>
+          <li>Espresso (Doppio)<span>P130</span></li>
+          <li>Flat White (Tall)<span>P165</span></li>
+          <li>Flat White (Grande)<span>P180</span></li>
+          <li>Flat White (Venti)<span>P195</span></li>
+          <li>Caffe Americano (Tall)<span>P130</span></li>
+          <li>Caffe Americano (Grande)<span>P145</span></li>
+          <li>Caffe Americano (Venti)<span>P160</span></li>
+        </ol>
+      </div>
+      <div class="col-2 product">
+        <ol>
+          <li>Capuccino (Tall)<span>P140</span></li>
+          <li>Capuccino (Grande)<span>P155</span></li>
+          <li>Capuccino (Venti)<span>P170</span></li>
+          <li>Caffe Latte (Tall)<span>P140</span></li>
+          <li>Caffe Latte (Grande)<span>P155</span></li>
+          <li>Caffe Latte (Venti)<span>P170</span></li>
+          <li>Caramel Macchiato (Tall)<span>P165</span></li>
+          <li>Caramel Macchiato (Grande)<span>P180</span></li>
+          <li>Caramel Macchiato (Venti)<span>P195</span></li>
+        </ol>
+      </div>
+      <div class="col-3 product">
+        <ol>
+          <li>Caffe Mocha (Tall)<span>P155</span></li>
+          <li>Caffe Mocha (Grande)<span>P170</span></li>
+          <li>Caffe Mocha (Venti)<span>P185</span></li>
+          <li>Cold Foam Iced Espresso (Tall)<span>P170</span></li>
+          <li>Cold Foam Iced Espresso (Grande)<span>P185</span></li>
+          <li>Cold Foam Iced Espresso (Venti)<span>P200</span></li>
+          <li>Ristretto Bianco (Tall)<span>P150</span></li>
+          <li>Ristretto Bianco (Grande)<span>P165</span></li>
+          <li>Ristretto Bianco (Venti)<span>P175</span></li>
+        </ol>
+      </div>
+    </div>
+    <hr />
+    <p class="abt">About Us</p>
+    <div id="contact">
+      <ul>
+        <li class="abt-us">
+          <a href="https://starbucks.ph/about-us" class="nodeco">Our Company</a>
+        </li>
+        <li class="abt-us">
+          <a href="https://starbucks.ph/stories" class="nodeco"
+            >Stories and News</a
+          >
+        </li>
+        <li class="abt-us">
+          <a href="https://starbucks.ph/customer-service" class="nodeco"
+            >Customer Service</a
+          >
+        </li>
+        <li class="abt-us">
+          <a href="https://careers.rustancoffeecorp.ph/" class="nodeco"
+            >Careers</a
+          >
+        </li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/StarbucksPhilippines"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://twitter.com/starbucksph"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/starbucksph/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UColvYenSJ5Lc4cKrlb0Ajrw"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
